@@ -101,6 +101,15 @@
             }
             
             private void shrink() {
+                int newCapacity = (int)(capacity / 2);
+                Object[] newArray = new Object[newCapacity];
+                for(int i=0; i<size; i++){
+                    newArray[i] = array[i];
+
+                }
+                capacity = newCapacity;
+                array = newArray;
+
 
             }
             
@@ -116,7 +125,7 @@
                 }
 
                 if (string != " ") {
-                    string = "[ " +string.substring(0, string.length() - 2) + "]";
+                    string = "[" +string.substring(0, string.length() - 2) + "]";
                 } else {
                     string = "[]";
                 }
