@@ -20,6 +20,7 @@
             int size;
             int capacity = 10;
             Object[] array; //we've inititalized an object i.e the data type is object and the variable is array.
+            // we use Object[] because we don't restrict the array to any data type. It can hold int, char, string etc
 
             //constructor
             //we use the concept of overloaded constructors
@@ -37,19 +38,37 @@
 
             //lets create the methods we would like to use
             void add(Object data) {
+                //we will expand the array if the size is greater or equal to the capacity
                 if (size >= capacity) {
-                    grow();
+                    grow(); //we use the grow method
                 }
 
-                array[size] = data;
+                array[size] = data; //the data will be equal to the array[0], then array[1]... thats why we use size++
                 size++;
 
             }
             
             void insert(int index, Object data) {
+                //we will expand the array if the size is greater or equal than capacity
                 if (size >= capacity) {
-                    grow();
+                    grow(); //we call the grow method
                 }
+
+                /*
+                 * lets say the index is the target.
+                 * inorder to insert we will loop from the maximum size to the index
+                 * array[size] = initially equal to null
+                 * lets say we have a size of 3 then array[3] = array[3-1] = array[2] = 'C'.
+                 * Then array[3] and array[2] are both 'C'
+                 * next loop, array[2] = array[2-1]= array[1]= "B"
+                 * Then array[1] and array[2] are both "B"
+                 * we've reached our target which is array[index] now the loop stops
+                 * lets say our index is at array[1]. 
+                 * We've therefore moved B and C
+                 * Now we insert the target. array[index] 
+                 * we then assign it the name data
+                
+                */
                 for (int i = size; i > index; i--) {
                     array[i] = array[i - 1];
                 } //shift all elements to make room for insertion from right to left
