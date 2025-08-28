@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "recursionPower4",
+            "request": "launch",
+            "mainClass": "recursionPower4",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
+            "name": "recursionFactorial3",
+            "request": "launch",
+            "mainClass": "recursionFactorial3",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
+            "name": "recursion2",
+            "request": "launch",
+            "mainClass": "recursion2",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

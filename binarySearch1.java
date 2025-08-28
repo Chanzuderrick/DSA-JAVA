@@ -18,10 +18,10 @@ public class binarySearch1 {
         int target = 42;
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = i;
+            array[i] = i; // i.e array[1] = 1; array[0] = 0;
         }
 
-        int index = Arrays.binarySearch(array, target);
+        int index = Arrays.binarySearch(array, target); //we do the actual binary search
 
         if (index == -1) {
             System.out.println("Target not found");
