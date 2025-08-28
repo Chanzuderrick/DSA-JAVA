@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hashTables2",
+            "request": "launch",
+            "mainClass": "hashTables2",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
+            "name": "hashTables1",
+            "request": "launch",
+            "mainClass": "hashTables1",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
             "name": "quickSort1",
             "request": "launch",
             "mainClass": "quickSort1",
