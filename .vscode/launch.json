@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "quickSort1",
+            "request": "launch",
+            "mainClass": "quickSort1",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
+            "name": "mergeSort1",
+            "request": "launch",
+            "mainClass": "mergeSort1",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
             "name": "recursionPower4",
             "request": "launch",
             "mainClass": "recursionPower4",
