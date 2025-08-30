@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hashMaps1",
+            "request": "launch",
+            "mainClass": "hashMaps1",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
             "name": "hashTables2",
             "request": "launch",
             "mainClass": "hashTables2",
