@@ -5,11 +5,11 @@ public class Graph {
     int[][] matrix;
     
     Graph(int size){
-        matrix = new int[size][size];
-        nodes = new ArrayList<>();
+        matrix = new int[size][size]; //we create a size * size matrix
+        nodes = new ArrayList<>(); //we begin with an empty arrayList
     }
     
-    public void addNode(Node node) {
+    public void addNode(Node node) { //we've used Node the same way we use int. 
         nodes.add(node);
 
     }
