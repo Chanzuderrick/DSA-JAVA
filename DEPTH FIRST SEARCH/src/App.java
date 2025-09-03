@@ -23,13 +23,18 @@ public class App {
         graph.addEdge(4,0);
         graph.addEdge(4,2);
 
-       // graph.print();
+       
         //System.out.println(checkEdge(0,1));
         //graph.depthSearch(0);
        // graph.depthSearch(1);
        // graph.depthSearch(2);
-        //graph.depthSearch(3);
-        graph.depthSearch(4);
+       //graph.depthSearch(3);
+        
+        
+        graph.depthSearch(2);
+        System.out.println(" ");
+        graph.print();
+
 
 
     }
