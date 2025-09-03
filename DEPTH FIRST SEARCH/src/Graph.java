@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Graph{
+public class Graph{ 
     ArrayList<Node> nodes;
     int[][] matrix;
 
