@@ -30,7 +30,7 @@ public class BinarySearchTree{
 
     private void displayHelper(Node root) {
         if (root != null) {
-            //inorder traversal
+            //in order traversal
 
             displayHelper(root.left);
             System.out.println(root.data);
