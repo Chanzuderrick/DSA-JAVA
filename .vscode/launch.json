@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "runTime1",
+            "request": "launch",
+            "mainClass": "runTime1",
+            "projectName": "DSA JAVA_4d393169"
+        },
+        {
+            "type": "java",
             "name": "undirectedGraph1",
             "request": "launch",
             "mainClass": "undirectedGraph1",
